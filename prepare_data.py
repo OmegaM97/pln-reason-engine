@@ -4,7 +4,7 @@ import pandas as pd
 TRAIN_INPUT = sys.argv[1] if len(sys.argv) > 1 else "data/Training.csv"
 TEST_INPUT = sys.argv[2] if len(sys.argv) > 2 else "data/Testing.csv"
 
-OUTPUT = "data/fever_slice.csv"
+OUTPUT = "fever_slice.csv"
 
 CATEGORY = {
     "Malaria": "ParasiticInfection",

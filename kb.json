@@ -1,0 +1,2019 @@
+{
+  "atoms": [
+    {
+      "type": "ConceptNode",
+      "name": "Malaria",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Chicken pox",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Dengue",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Typhoid",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Tuberculosis",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Common Cold",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "Pneumonia",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "ParasiticInfection",
+      "stv": [
+        0.14285714285714285,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "ViralInfection",
+      "stv": [
+        0.42857142857142855,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "BacterialInfection",
+      "stv": [
+        0.42857142857142855,
+        0.1
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "itching",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "skin_rash",
+      "stv": [
+        0.2715466351829988,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "continuous_sneezing",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "chills",
+      "stv": [
+        0.8217237308146399,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "joint_pain",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "vomiting",
+      "stv": [
+        0.5430932703659976,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "fatigue",
+      "stv": [
+        0.8217237308146399,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "weight_loss",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "lethargy",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "cough",
+      "stv": [
+        0.40731995277449823,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "high_fever",
+      "stv": [
+        0.9574970484061394,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "breathlessness",
+      "stv": [
+        0.2715466351829988,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "sweating",
+      "stv": [
+        0.40731995277449823,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "headache",
+      "stv": [
+        0.6859504132231405,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "nausea",
+      "stv": [
+        0.41440377804014167,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "loss_of_appetite",
+      "stv": [
+        0.4214876033057851,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "pain_behind_the_eyes",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "back_pain",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "constipation",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "abdominal_pain",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "diarrhoea",
+      "stv": [
+        0.2644628099173554,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "mild_fever",
+      "stv": [
+        0.27863046044864226,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "yellowing_of_eyes",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "swelled_lymph_nodes",
+      "stv": [
+        0.41440377804014167,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "malaise",
+      "stv": [
+        0.693034238488784,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "phlegm",
+      "stv": [
+        0.4214876033057851,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "throat_irritation",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "redness_of_eyes",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "sinus_pressure",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "runny_nose",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "congestion",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "chest_pain",
+      "stv": [
+        0.42857142857142855,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "fast_heart_rate",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "loss_of_smell",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "toxic_look_(typhos)",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "muscle_pain",
+      "stv": [
+        0.4214876033057851,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "red_spots_over_body",
+      "stv": [
+        0.27863046044864226,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "belly_pain",
+      "stv": [
+        0.1357733175914994,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "rusty_sputum",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ConceptNode",
+      "name": "blood_in_sputum",
+      "stv": [
+        0.14285714285714285,
+        0.9883313885647608
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "vomiting"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "sweating"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "headache"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "nausea"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "diarrhoea"
+        }
+      ],
+      "stv": [
+        0.9008264462809917,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "muscle_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "itching"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "skin_rash"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "lethargy"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "headache"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "loss_of_appetite"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "mild_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "swelled_lymph_nodes"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "malaise"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "red_spots_over_body"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "skin_rash"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "joint_pain"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "vomiting"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "headache"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "nausea"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "loss_of_appetite"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "pain_behind_the_eyes"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "back_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "malaise"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "muscle_pain"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "red_spots_over_body"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "vomiting"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "headache"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "nausea"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "constipation"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "abdominal_pain"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "diarrhoea"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "toxic_look_(typhos)"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "belly_pain"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "vomiting"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "weight_loss"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "cough"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "breathlessness"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "sweating"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "loss_of_appetite"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "mild_fever"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "yellowing_of_eyes"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "swelled_lymph_nodes"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "malaise"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "phlegm"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chest_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "blood_in_sputum"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "continuous_sneezing"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "cough"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "headache"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "swelled_lymph_nodes"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "malaise"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "phlegm"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "throat_irritation"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "redness_of_eyes"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "sinus_pressure"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "runny_nose"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "congestion"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chest_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "loss_of_smell"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "muscle_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chills"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fatigue"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "cough"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "high_fever"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "breathlessness"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "sweating"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "malaise"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "phlegm"
+        }
+      ],
+      "stv": [
+        0.9504132231404959,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "chest_pain"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "fast_heart_rate"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "ImplicationLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "rusty_sputum"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9236641221374046
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Malaria"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "ParasiticInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Chicken pox"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "ViralInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Dengue"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "ViralInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Typhoid"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "BacterialInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Tuberculosis"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "BacterialInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Common Cold"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "ViralInfection"
+        }
+      ],
+      "stv": [
+        1.0,
+        0.9
+      ]
+    },
+    {
+      "type": "InheritanceLink",
+      "targets": [
+        {
+          "type": "ConceptNode",
+          "name": "Pneumonia"
+        },
+        {
+          "type": "ConceptNode",
+          "name": "BacterialInfection"
+        }
+      ],
+      "stv": [
+        0.7,
+        0.9
+      ]
+    }
+  ]
+}
