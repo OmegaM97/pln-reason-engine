@@ -1,6 +1,4 @@
 import json
-import os
-import tempfile
 
 NODE_TYPES = {"ConceptNode", "PredicateNode"}
 LINK_TYPES = {
