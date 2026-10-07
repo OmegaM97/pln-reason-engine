@@ -1,3 +1,4 @@
+import sys
 from chaining import DiagnosisEngine, compare_results
 from build_kb import build_kb, read_slice
 
@@ -39,6 +40,27 @@ def run(kb, title, symptoms, goals, trace_targets=()):
     return result
 
 
+def scenario_1(kb):
+    return run(
+        kb, "SCENARIO 1: evidence supports a conclusion",
+        ["cough", "blood_in_sputum", "weight_loss", "sweating"],
+        goals=["Tuberculosis", "BacterialInfection"])
+
+
+def scenario_2(kb):
+    return run(
+        kb, "SCENARIO 2: incomplete and uncertain evidence",
+        [("high_fever", 1.0, 0.6)],
+        goals=["Dengue"])
+
+
+def scenario_3(kb):
+    return run(
+        kb, "SCENARIO 3: several explanations are possible",
+        ["high_fever", "headache", "nausea", "vomiting", "fatigue"],
+        goals=["Typhoid", "Malaria"])
+
+
 def scenario_4(kb):
     """New and conflicting evidence: run, add reports, run again, compare."""
     title = "SCENARIO 4: new and conflicting evidence changes a belief"
@@ -60,34 +82,15 @@ def scenario_4(kb):
     return after
 
 
-def main():
-    symptoms, rows = read_slice("fever_slice.csv")
-    kb, _ = build_kb(symptoms, rows)
-    results = {}
-
-    results["1 supported"] = run(
-        kb, "SCENARIO 1: evidence supports a conclusion",
-        ["cough", "blood_in_sputum", "weight_loss", "sweating"],
-        goals=["Tuberculosis", "BacterialInfection"])
-
-    results["2 incomplete"] = run(
-        kb, "SCENARIO 2: incomplete and uncertain evidence",
-        [("high_fever", 1.0, 0.6)],
-        goals=["Dengue"])
-
-    results["3 multiple"] = run(
-        kb, "SCENARIO 3: several explanations are possible",
-        ["high_fever", "headache", "nausea", "vomiting", "fatigue"],
-        goals=["Typhoid", "Malaria"])
-
-    results["4 conflict"] = scenario_4(kb)
-
-    results["5 multi-step"] = run(
+def scenario_5(kb):
+    return run(
         kb, "SCENARIO 5: multi-step inference, confidence along the path",
         ["cough", "phlegm", "chest_pain", "breathlessness"],
         goals=["BacterialInfection"],
         trace_targets=["Pneumonia", "BacterialInfection"])
 
+
+def print_summary(results):
     print(f"\n{LINE}\nSUMMARY (top disease and top category per scenario)\n{LINE}")
     print(f"{'scenario':<14}{'top disease':<16}{'str':<8}{'conf':<8}"
           f"{'top category':<20}{'str':<8}{'conf'}")
@@ -101,6 +104,72 @@ def main():
               f"{(c.name if c else '-'):<20}"
               f"{(f'{c.strength:.3f}' if c else '-'):<8}"
               f"{(f'{c.confidence:.3f}' if c else '-')}")
+
+
+def run_all(kb):
+    results = {
+        "1 supported": scenario_1(kb),
+        "2 incomplete": scenario_2(kb),
+        "3 multiple": scenario_3(kb),
+        "4 conflict": scenario_4(kb),
+        "5 multi-step": scenario_5(kb),
+    }
+    print_summary(results)
+    return results
+
+
+SCENARIOS = {
+    "1": ("Scenario 1: Evidence supports a conclusion", scenario_1),
+    "2": ("Scenario 2: Incomplete and uncertain evidence", scenario_2),
+    "3": ("Scenario 3: Several explanations are possible", scenario_3),
+    "4": ("Scenario 4: New and conflicting evidence changes a belief", scenario_4),
+    "5": ("Scenario 5: Multi-step inference, confidence along the path", scenario_5),
+    "6": ("Run all scenarios (with summary)", run_all),
+}
+
+
+def menu(kb):
+    while True:
+        print(f"\n{LINE}")
+        print("PLN REASON ENGINE - SCENARIO MENU")
+        print(LINE)
+        for key, (label, _) in SCENARIOS.items():
+            print(f"  [{key}] {label}")
+        print("  [0] Exit (or 'q')")
+        print(LINE)
+
+        try:
+            choice = input("Select a scenario to run: ").strip().lower()
+        except (KeyboardInterrupt, EOFError):
+            print("\nExiting.")
+            break
+
+        if choice in ("0", "q", "exit", "quit"):
+            print("Exiting.")
+            break
+        elif choice in SCENARIOS:
+            _, func = SCENARIOS[choice]
+            func(kb)
+        else:
+            print(f"Invalid selection '{choice}'. Please select an option from the menu.")
+
+
+def main():
+    symptoms, rows = read_slice("fever_slice.csv")
+    kb, _ = build_kb(symptoms, rows)
+
+    if len(sys.argv) > 1:
+        choice = sys.argv[1].strip().lower()
+        if choice in SCENARIOS:
+            SCENARIOS[choice][1](kb)
+            return
+        elif choice in ("all", "all_scenarios"):
+            run_all(kb)
+            return
+        else:
+            print(f"Unknown argument '{choice}'. Starting interactive menu.")
+
+    menu(kb)
 
 
 if __name__ == "__main__":
