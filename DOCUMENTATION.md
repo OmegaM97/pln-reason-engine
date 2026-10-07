@@ -1,14 +1,4 @@
-# Mini PLN Engine for Fever Diagnosis
-
-A small Probabilistic Logic Networks (PLN) engine in Python. It diagnoses the likely cause of a fever from reported symptoms, using truth values (strength, confidence) on every relationship.
-
-## 1. Problem and why probabilistic reasoning
-
-**Problem.** Given the symptoms of one patient, rank the possible infectious diseases and their categories (viral, bacterial, parasitic), say how sure the system is, and say which symptom to check next.
-
-**Why probabilistic.** Symptoms are shared between diseases (fever, headache, fatigue appear in most of them), so no single symptom decides. Evidence is partial and can conflict. Each relationship therefore carries two numbers: **strength** (how often it holds) and **confidence** (how much evidence supports that strength).
-
-## 2. AtomSpace (`atomspace.py`)
+## 1. AtomSpace (`atomspace.py`)
 
 The knowledge is stored as atoms
 
@@ -21,7 +11,7 @@ The knowledge is stored as atoms
   - `of_type(type)` lists atoms of a type. `links_from(atom, type)` lists links whose **first** target is the atom. `links_to` uses the last target. `match` does simple pattern queries. `remove` deletes an atom and the links containing it.
   - `save(path)` / `load(path)` write and read JSON (every atom with its type, name or targets, and STV).
 
-## 3. Knowledge base construction (`knowledge_base.py`)
+## 2. Knowledge base construction (`build_kb.py`)
 
 `read_slice(path)` checks the file (first two columns are `prognosis` and `category`, symptom cells are 0 or 1, no empty values) and returns the symptom names and rows. `build_kb(symptoms, rows)` returns the AtomSpace and a stats dict.
 
@@ -38,7 +28,7 @@ The knowledge is stored as atoms
 - Because every disease has the same number of rows, a symptom's base rate equals the average of its disease link strengths, so base rates and link strengths agree. This matters for deduction and abduction.
 - The saved JSON is reloaded and compared atom by atom before the build is reported as successful.
 
-## 4. PLN rules (`pln_rules.py`)
+## 3. PLN rules (`pln_rules.py`)
 
 Notation for a link A→B: `sAB`, `cAB`. `sB` is the base rate (strength) of node B. All rules return both strength and confidence.
 
@@ -73,7 +63,7 @@ Notation for a link A→B: `sAB`, `cAB`. `sB` is the base rate (strength) of nod
 
 **No-information results.** A result with confidence 0 carries no evidence. The engine drops it, and also drops any result with confidence below 0.01.
 
-## 5. Chaining (`chaining.py`)
+## 4. Chaining (`chaining.py`)
 
 Both modes run on a **copy** of the knowledge base (`copy_space`), so scenarios do not affect each other. Both use the same helper functions (`abduce`, `deduce`) and the same evidence rules, so the same goal gives the same numbers.
 
@@ -102,7 +92,7 @@ Output: diseases and categories ranked by strength, then confidence; the suggest
 - Symptom: proved by an observation, otherwise "no evidence".
 - Depth limit 3. Output: strength, confidence, the proof tree, and the unobserved symptoms that would help (missing evidence).
 
-## 6. Scenarios (`main.py`)
+## 5. Scenarios (`main.py`)
 
 Each scenario uses a fresh engine over the same knowledge base. Observations have strength 1.0 and confidence 0.9 unless stated.
 
@@ -124,9 +114,9 @@ Each scenario uses a fresh engine over the same knowledge base. Observations hav
 
 **5.** Confidence along the path to BacterialInfection: observation 0.90, each abduction 0.454, the revision of four symptoms 0.769 (Tuberculosis), the category by deduction 0.260. Confidence falls at each inference step and rises when independent evidence is merged.
 
-## 7. Assumptions
+## 6. Assumptions
 
-1. Each row is treated as one independent patient (n = 121 per disease). See limitation 3.
+1. Each row is treated as one independent patient (n = 121 per disease).
 2. K = 10 in `c = n / (n + K)`.
 3. Disease base rate 1/7 (confidence 0.1): the file has equal rows per disease, so real frequencies are unknown. Category base rate is the sum of its diseases' base rates.
 4. Category links: confidence 0.9; strength 1.0, except Pneumonia → BacterialInfection at 0.7 (hand-set, because it can also be viral). The base rate of Bacterial (3/7) is not adjusted for this.
