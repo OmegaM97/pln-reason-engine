@@ -58,3 +58,4 @@ uv run python build_kb.py
 ```
 
 Technical Report: https://docs.google.com/document/d/1AlJStZHcZsMcxxG7W11Vg9Qxs2ZsdKprIiBOTIHBvKk/edit?usp=sharing
+Presentation Slide: https://docs.google.com/presentation/d/1WcB0qsa70YYhmWaaxP4LKkBxCQSoBydL/edit?usp=sharing&ouid=117691053317499707814&rtpof=true&sd=true
